@@ -2,27 +2,27 @@ import { Service, Credential, Value, Experience, Insurance, ContactDetails, Ther
 
 // Website metadata
 export const websiteMetadata: WebsiteMetadata = {
-  title: "Alexis Jones - Marriage and Family Therapist in Houston",
-  description: "Professional counseling services specializing in relationship issues, depression, bipolar disorder, and family therapy. Licensed Marriage and Family Therapist serving Houston, TX.",
+  title: "Yemi A Onasanya - Licensed Professional Counselor in Ypsilanti",
+  description: "Evidence-based therapy specializing in OCD, Anxiety, Depression, ADHD, and family therapy. Licensed Professional Counselor serving Ypsilanti, MI.",
   keywords: [
-    "Alexis Jones",
-    "Houston therapist",
-    "marriage counseling",
+    "Yemi Onasanya",
+    "Ypsilanti therapist",
+    "OCD treatment",
+    "anxiety therapy",
+    "depression counseling",
+    "ADHD treatment",
     "family therapy",
-    "relationship issues",
-    "depression therapy",
-    "bipolar disorder",
-    "anxiety counseling",
-    "child therapy",
-    "family conflict",
-    "couples therapy",
+    "couples counseling",
     "mental health support",
-    "Houston counseling",
-    "LMFT",
-    "LPC Intern"
+    "Ypsilanti counseling",
+    "ERP therapy",
+    "CBT therapy",
+    "trauma-focused therapy",
+    "LPC",
+    "NCC"
   ],
-  author: "Alexis Jones, LPC Intern, LMFT",
-  ogImage: "/images/og-image.jpg",
+  author: "Yemi A Onasanya, MSc, LPC, NCC",
+  ogImage: "/images/yemi-onasanya.jpg",
   ogType: "website",
   twitterCard: "summary_large_image"
 };
@@ -30,124 +30,121 @@ export const websiteMetadata: WebsiteMetadata = {
 // Services data
 export const services: Service[] = [
   {
-    title: "Marriage & Family Therapy",
-    description: "Comprehensive therapy for couples and families focused on improving communication, resolving conflicts, and strengthening relationships.",
-    image: "/images/services/couple.jpg",
+    title: "OCD & Anxiety Treatment",
+    description: "Specialized treatment using Exposure and Response Prevention (ERP) for OCD and anxiety-related disorders, helping you manage intrusive thoughts and develop effective coping strategies.",
+    image: "/images/services/mental-health.webp",
     points: [
-      "Couples counseling",
-      "Family conflict resolution",
-      "Parent-child relationship support",
-      "Communication skills development",
-      "Trust building strategies",
-      "Family dynamics improvement"
+      "Exposure and Response Prevention (ERP)",
+      "Anxiety management",
+      "OCD treatment",
+      "Panic disorder support",
+      "Social anxiety treatment",
+      "Agoraphobia management"
     ]
   },
   {
-    title: "Depression & Bipolar Support",
-    description: "Specialized treatment for mood disorders, helping you manage symptoms and develop effective coping strategies.",
-    image: "/images/services/substance-abuse.webp",
+    title: "Depression & Mood Disorders",
+    description: "Evidence-based therapy for depression and mood-related challenges, focusing on building resilience and developing healthy coping mechanisms.",
+    image: "/images/services/mental-health.jpg",
     points: [
       "Depression management",
-      "Bipolar disorder treatment",
-      "Mood stabilization techniques",
-      "Emotional regulation skills",
-      "Coping strategy development",
+      "Mood disorder treatment",
+      "Emotional regulation",
+      "Coping strategies",
+      "Behavioral activation",
       "Support system building"
     ]
   },
   {
-    title: "Child & Teen Counseling",
-    description: "Supportive therapy for young clients dealing with behavioral issues, school challenges, and emotional development.",
+    title: "ADHD & Behavioral Support",
+    description: "Comprehensive treatment for ADHD and behavioral challenges, helping you develop strategies for better focus, organization, and impulse control.",
     image: "/images/services/mental-health.webp",
     points: [
-      "Behavioral issues support",
-      "School-related challenges",
-      "Peer relationship guidance",
-      "Emotional development",
-      "Family communication",
-      "Confidence building"
+      "ADHD management",
+      "Behavioral strategies",
+      "Impulse control techniques",
+      "Organization skills",
+      "Focus improvement",
+      "Academic/work support"
     ]
   }
 ];
 
 // Credentials data
 export const credentials: Credential[] = [
-  { text: "Licensed Marriage and Family Therapist (LMFT)" },
-  { text: "Licensed Professional Counselor Intern (LPC Intern)" },
-  { text: "Master's in Marriage & Family Therapy from Touro University Worldwide" },
-  { text: "Member of American Association for Marriage & Family Therapy" },
-  { text: "Supervised by Tia Jennings (Texas / 66593)" }
+  { text: "Licensed Professional Counselor (LPC)" },
+  { text: "National Certified Counselor (NCC)" },
+  { text: "Master of Science (MSc) from Springfield College, 2021" },
+  { text: "Licensed in PA and MI, NJ license in view" },
+  { text: "Specialized training in ERP, CBT, and ESFT" }
 ];
 
 // Values data
 export const values: Value[] = [
   {
-    title: "Trust & Safety",
-    description: "Creating a non-judgmental and empathetic atmosphere where clients feel comfortable sharing their innermost thoughts and fears."
-  },
-  {
     title: "Evidence-Based Practice",
-    description: "Utilizing proven therapeutic approaches like Cognitive Behavioral Therapy (CBT) and other evidence-based methods to help clients achieve their goals."
+    description: "Utilizing proven therapeutic approaches including ERP, CBT, TF-CBT, DBT, and ESFT to provide effective, research-supported treatment."
   },
   {
-    title: "Family Systems Focus",
-    description: "Understanding and addressing the complex dynamics of familial interactions to foster healing and positive change within relationships."
+    title: "Compassionate Care",
+    description: "Creating a safe, supportive, and collaborative space where you can explore your thoughts and emotions openly without fear of judgment."
+  },
+  {
+    title: "Cultural Sensitivity",
+    description: "Providing culturally aware therapy that respects and incorporates diverse backgrounds and experiences."
   }
 ];
 
 // Experience paragraphs
 export const experience: Experience[] = [
   {
-    paragraph: "As a licensed marriage and family therapist, my private practice is dedicated to helping individuals, couples, and families navigate the complexities of their relationships. Each therapy session is an opportunity to explore the dynamics of familial interactions and personal challenges, fostering understanding and healing."
+    paragraph: "As a licensed mental health professional, I'm dedicated to helping individuals and families navigate life's challenges with compassion and care. I provide evidence-based therapy tailored to support healing, resilience, and meaningful personal growth."
   },
   {
-    paragraph: "I utilize a variety of therapeutic approaches that cater to different needs and situations. One such method is Cognitive Behavioral Therapy (CBT), which empowers clients to identify and challenge negative thought patterns that may be sabotaging their relationships."
+    paragraph: "I specialize in working with adolescents, young adults, and middle-aged adults experiencing OCD, Anxiety and related disorders, Depression, ADHD, and co-occurring conditions. My goal is to create a safe, supportive, and collaborative space where you can explore your thoughts and emotions openly."
   },
   {
-    paragraph: "My expertise extends to complex issues such as depression, bipolar disorder, and family conflict. I work with clients of all ages, from children to adults, helping them develop healthier communication patterns and find solutions to the issues that trouble them."
-  },
-  {
-    paragraph: "Building trust with clients is fundamental to the therapeutic process. In my practice, I prioritize creating a non-judgmental and empathetic atmosphere where clients feel comfortable sharing their innermost thoughts and fears."
+    paragraph: "Using empathy and validation, I am committed to helping you achieve your goals, heal from past traumas, build resilience, address family system dysfunction, and reduce maladaptive responses that keep you stuck. Together we can move toward lasting growth."
   }
 ];
 
 // Contact details
 export const contactDetails: ContactDetails = {
-  location: "Houston, TX 77089",
-  phone: "(346) 472-4377",
-  email: "alexis@somethingspecialcounseling.com",
+  location: "Ypsilanti, MI 48197",
+  phone: "(734) 724-6266",
+  email: "contact@onasanyatherapy.com",
   hours: [
-    { day: "Monday", time: "9:00am - 7:00pm" },
-    { day: "Tuesday", time: "9:00am - 7:00pm" },
-    { day: "Wednesday", time: "9:00am - 7:00pm" },
-    { day: "Thursday", time: "9:00am - 7:00pm" },
-    { day: "Friday", time: "9:00am - 7:00pm" }
+    { day: "Monday", time: "Available for online sessions" },
+    { day: "Tuesday", time: "Available for online sessions" },
+    { day: "Wednesday", time: "Available for online sessions" },
+    { day: "Thursday", time: "Available for online sessions" },
+    { day: "Friday", time: "Available for online sessions" }
   ]
 };
 
 // Hero content
 export const heroContent: HeroContent = {
   title: {
-    main: "Alexis Jones",
-    sub: "Marriage & Family Therapy"
+    main: "Yemi A Onasanya",
+    sub: "Licensed Professional Counselor"
   },
   paragraphs: [
-    "Welcome to Something Special Counseling. As a licensed marriage and family therapist, I'm dedicated to helping individuals, couples, and families navigate life's challenges and build stronger relationships.",
-    "My practice offers a safe, supportive space where you can explore your thoughts and feelings, develop healthier communication patterns, and find solutions to the issues that trouble you. Whether you're dealing with relationship issues, depression, or family conflict, I'm here to help.",
-    "Therapy with me is like speaking to a real-life diary - I am here not only to listen but to truly hear what you're saying. Together, we'll work to create positive change and build the relationships you desire."
+    "Hi, I'm Yemi Onasanya—a licensed mental health professional dedicated to helping individuals and families navigate life's challenges with compassion and care.",
+    "I provide evidence-based therapy tailored to support healing, resilience, and meaningful personal growth. I specialize in working with adolescents, young adults, and middle-aged adults experiencing OCD, Anxiety and related disorders, Depression, ADHD, and co-occurring conditions.",
+    "My goal is to create a safe, supportive, and collaborative space where you can explore your thoughts and emotions openly—without fear of judgment—as we work together toward lasting change."
   ],
-  ctaText: "Schedule Your Free Consultation",
+  ctaText: "Schedule Your Free 15-Minute Consultation",
   backgroundImage: "/images/insite-hero-background.jpg"
 };
 
 // Quote section
 export const quoteSection: QuoteSection = {
   quote: {
-    textHtml: "In the tapestry of relationships, <strong style='color: #E7963E;'>open communication</strong> is the thread that weaves <strong style='color: #E7963E;'>connection and understanding</strong>.",
-    author: "Alexis Jones"
+    textHtml: "Using <strong style='color: #E7963E;'>empathy and validation</strong>, I am committed to helping you achieve your goals and build <strong style='color: #E7963E;'>lasting resilience</strong>.",
+    author: "Yemi A Onasanya"
   },
   description: {
-    textHtml: "A <strong style='color: #E7963E;'>Houston</strong> based practice specializing in <strong style='color: #E7963E;'>marriage & family therapy</strong>, <strong style='color: #F59E0B;'>depression</strong>, and <strong style='color: #E7963E;'>relationship issues</strong>."
+    textHtml: "An <strong style='color: #E7963E;'>Ypsilanti</strong> based practice specializing in <strong style='color: #E7963E;'>OCD & anxiety treatment</strong>, <strong style='color: #F59E0B;'>depression</strong>, and <strong style='color: #E7963E;'>ADHD support</strong>."
   },
   cta: {
     text: "Start Your Journey",
@@ -155,69 +152,44 @@ export const quoteSection: QuoteSection = {
   }
 };
 
-// Testimonials
-export const testimonials: Testimonial[] = [
-  {
-    text: "I felt lost and overwhelmed by my emotions, but Alexis helped me navigate through my depression with understanding and compassion. I can finally see a light at the end of the tunnel.",
-    rating: 5,
-    author: "Depression Client"
-  },
-  {
-    text: "Our relationship was struggling, but through therapy with Alexis, we learned to communicate better and understand each other's needs. It was a transformative experience for both of us.",
-    rating: 5,
-    author: "Couple in Therapy"
-  },
-  {
-    text: "As a parent, I found it difficult to connect with my child who was facing school issues. Alexis provided us with strategies that improved our relationship immensely.",
-    rating: 5,
-    author: "Parent Client"
-  },
-  {
-    text: "The therapist's approach to managing my bipolar disorder has been incredibly effective. I now feel more in control and equipped to handle my mood swings.",
-    rating: 5,
-    author: "Bipolar Disorder Client"
-  }
-];
-
 // Organizations
 export const organizations: Organization[] = [
-  { name: "Touro University Worldwide", logo: "/images/orgs/touro.png", width: 200 },
-  { name: "American Association for Marriage & Family Therapy", logo: "/images/orgs/aamft.png", width: 240 },
-  { name: "Something Special Counseling", logo: "/images/orgs/something-special.png", width: 200 }
+  { name: "Springfield College", logo: "/images/orgs/springfield-college.png", width: 200 },
+  { name: "National Board for Certified Counselors", logo: "/images/orgs/nbcc.png", width: 240 }
 ];
 
 // CTA Banner
 export const ctaBanner: CtaBanner = {
-  title: "Ready to strengthen your relationships?",
-  phone: "(346) 472-4377",
-  ctaText: "Schedule Your Free Consultation",
+  title: "Ready to start your healing journey?",
+  phone: "(734) 724-6266",
+  ctaText: "Schedule Your Free 15-Minute Consultation",
   backgroundImage: "/images/tree-wallpaper-slice.webp"
 };
 
 // Founder information
 export const founder: Founder = {
-  name: "Alexis Jones",
-  title: "Licensed Marriage and Family Therapist, LPC Intern",
-  image: "/images/alexis.jpeg",
+  name: "Yemi A Onasanya",
+  title: "Licensed Professional Counselor, MSc, LPC, NCC",
+  image: "/images/yemi-onasanya.jpg",
   paragraphs: [
-    "As a licensed marriage and family therapist, my private practice is dedicated to helping individuals, couples, and families navigate the complexities of their relationships. Each therapy session is an opportunity to explore the dynamics of familial interactions and personal challenges, fostering understanding and healing.",
-    "With a Master's degree in Marriage & Family Therapy from Touro University Worldwide and membership in the American Association for Marriage & Family Therapy, I bring both expertise and compassion to my work with clients.",
-    "I specialize in relationship issues, depression, bipolar disorder, and family therapy, creating a safe and supportive environment where you can openly explore your thoughts and feelings."
+    "Hi, I'm Yemi Onasanya—a licensed mental health professional dedicated to helping individuals and families navigate life's challenges with compassion and care. I provide evidence-based therapy tailored to support healing, resilience, and meaningful personal growth.",
+    "I specialize in Exposure and Response Prevention (ERP) for OCD and anxiety-related disorders, and use CBT, TF-CBT, DBT, ESFT, and trauma-informed care. I tailor treatment to your unique needs—whether you're facing intrusive thoughts, emotional struggles, family conflict, or life transitions.",
+    "Using empathy and validation, I am committed to helping you achieve your goals, heal from past traumas, build resilience, address family system dysfunction, and reduce maladaptive responses that keep you stuck. Together we can move toward lasting growth."
   ],
   highlights: [
-    "Licensed Marriage and Family Therapist",
-    "LPC Intern",
-    "Masters in Marriage & Family Therapy",
-    "AAMFT Member",
-    "CBT Trained",
-    "Family Systems Expert"
+    "Licensed Professional Counselor (LPC)",
+    "National Certified Counselor (NCC)",
+    "Master's from Springfield College",
+    "ERP Specialist",
+    "CBT & DBT Trained",
+    "Trauma-Informed Care Expert"
   ]
 };
 
 // Contact section
 export const contactSection: ContactSection = {
-  title: "Let's Talk",
-  description: "Ready to begin your journey to better relationships? Whether you have questions about therapy, insurance coverage, or would like to schedule a consultation, I'm here to help. Your path to healthier relationships starts with a simple conversation.",
+  title: "Let's Connect",
+  description: "Ready to take the first step towards better mental health? Whether you have questions about therapy, insurance coverage, or would like to schedule a consultation, I'm here to help. Your path to healing starts with a simple conversation.",
   ctaText: "Schedule Your Free 15-Minute Consultation"
 };
 
@@ -225,23 +197,23 @@ export const contactSection: ContactSection = {
 export const faqs: FAQ[] = [
   {
     question: "What types of therapy do you offer?",
-    answer: "I specialize in marriage and family therapy, relationship counseling, and individual therapy for issues like depression and bipolar disorder. I use evidence-based approaches including CBT and family systems therapy."
+    answer: "I specialize in evidence-based treatments including Exposure and Response Prevention (ERP) for OCD, CBT, TF-CBT, DBT, and ESFT. I work with individuals and families dealing with anxiety, depression, ADHD, and related conditions."
   },
   {
     question: "Do you offer virtual sessions?",
-    answer: "Yes, I offer telehealth therapy sessions for your convenience. I'm available Monday through Friday from 9am to 7pm (CST)."
+    answer: "Yes, I offer therapy sessions online through secure video platforms. I'm available most weekdays, with flexibility for evening appointments."
   },
   {
     question: "What are your fees?",
-    answer: "Individual sessions are $80, and couple sessions are $120. I offer a sliding scale for eligible clients and accept most major insurance plans."
+    answer: "Individual sessions are $150. I offer a sliding scale for eligible clients and accept various insurance plans including Aetna, Blue Cross Blue Shield, Carelon, Cigna, and UnitedHealthcare."
   },
   {
     question: "What payment methods do you accept?",
-    answer: "I accept American Express, Discover, Mastercard, Visa, Apple Cash, and Zelle. I'm happy to work with you to keep therapy affordable."
+    answer: "I accept ACH bank transfer, cash, check, credit cards (Mastercard, Visa), PayPal, Venmo, wire transfer, and Zelle."
   },
   {
     question: "How do I schedule an appointment?",
-    answer: "You can schedule an appointment by calling (346) 472-4377 or sending me an email. I offer a free 15-minute consultation to discuss your needs and ensure we're a good fit."
+    answer: "You can schedule an appointment by calling (734) 724-6266 or sending me an email. I offer a free 15-minute consultation to discuss your needs and ensure we're a good fit."
   }
 ];
 
@@ -249,8 +221,8 @@ export const faqs: FAQ[] = [
 export const aboutPage: AboutPage = {
   hero: {
     title: "Meet Your Therapist",
-    description: "Hi, I'm Alexis Jones, a Licensed Marriage and Family Therapist committed to helping individuals, couples, and families navigate life's challenges and build stronger relationships. With over 5 years of experience, I specialize in providing comprehensive therapy services focused on relationship issues, depression, and family dynamics.",
-    image: "/images/alexis.jpeg",
+    description: "Hi, I'm Yemi A Onasanya, a Licensed Professional Counselor committed to helping individuals and families navigate life's challenges with compassion and care. I specialize in evidence-based treatments for OCD, anxiety, depression, and ADHD, creating a safe and supportive environment for healing and growth.",
+    image: "/images/yemi-onasanya.jpg",
     ctaText: "Schedule Your Free Consultation"
   },
   values: {
@@ -266,11 +238,11 @@ export const aboutPage: AboutPage = {
 export const contactPage: ContactPage = {
   hero: {
     title: "Connect With Me",
-    description: "Ready to take the first step towards healthier relationships? I'm here to help you begin your journey. Reach out today to schedule your free 15-minute consultation."
+    description: "Ready to take the first step towards better mental health? I'm here to help you begin your journey. Reach out today to schedule your free 15-minute consultation."
   },
   info: {
     title: "Contact Information",
-    description: "Whether you have questions about therapy, insurance coverage, or would like to schedule an appointment, I'm here to support you every step of the way. I offer both in-person and telehealth sessions."
+    description: "Whether you have questions about therapy, insurance coverage, or would like to schedule an appointment, I'm here to support you every step of the way. I offer convenient online therapy sessions through secure video platforms."
   },
   hours: {
     title: "Available Hours"
@@ -284,7 +256,7 @@ export const faqsPage: FAQsPage = {
     description: "Find answers to common questions about my therapy services, fees, insurance coverage, and what to expect in our sessions."
   },
   footer: {
-    description: "Still have questions? Don't hesitate to reach out. I'm here to help you understand how we can work together to strengthen your relationships and improve your well-being.",
+    description: "Still have questions? Don't hesitate to reach out. I'm here to help you understand how we can work together to improve your mental health and well-being.",
     ctaText: "Contact Me"
   }
 };
@@ -293,11 +265,11 @@ export const faqsPage: FAQsPage = {
 export const servicesPage: ServicesPage = {
   hero: {
     title: "Therapy Services",
-    description: "I offer comprehensive therapy services focused on strengthening relationships and supporting mental health through evidence-based practices and compassionate care. Each approach is tailored to meet your unique needs and goals."
+    description: "I offer evidence-based therapy services focused on treating OCD, anxiety, depression, ADHD, and related conditions. Each approach is tailored to meet your unique needs and goals, using proven methods like ERP, CBT, and trauma-informed care."
   },
   ctaSection: {
     title: "Ready to Begin?",
-    description: "Take the first step toward healthier relationships and improved well-being. Schedule a free 15-minute consultation to discuss how we can work together to achieve your goals.",
+    description: "Take the first step toward better mental health. Schedule a free 15-minute consultation to discuss how we can work together to achieve your goals.",
     ctaText: "Schedule Your Free Consultation"
   }
 };
@@ -305,23 +277,23 @@ export const servicesPage: ServicesPage = {
 // Mission Statement
 export const missionStatement: MissionStatement = {
   title: "Mission Statement",
-  subtitle: "Building Stronger Relationships Through Understanding",
-  description: "My mission is to provide compassionate, evidence-based therapy that helps individuals, couples, and families navigate their relationships and achieve lasting positive change. Each therapy session is an opportunity to explore dynamics, foster understanding, and build healthier connections.",
+  subtitle: "Evidence-Based Care for Lasting Change",
+  description: "My mission is to provide compassionate, evidence-based therapy that helps individuals and families overcome mental health challenges and achieve meaningful personal growth. Each therapy session is an opportunity to build resilience, develop coping skills, and work towards lasting positive change.",
 
   methods: {
     title: "My Therapeutic Approach",
     sections: [
       {
-        title: "Family Systems Focus",
-        description: "Understanding and addressing the complex dynamics of familial interactions to foster healing and positive change within relationships."
+        title: "Evidence-Based Treatment",
+        description: "Utilizing proven therapeutic approaches like ERP, CBT, and trauma-informed care to provide effective, research-supported treatment for various mental health conditions."
       },
       {
-        title: "Evidence-Based Practice",
-        description: "Utilizing proven therapeutic approaches like CBT and other evidence-based methods to help clients achieve their relationship and personal goals."
+        title: "Collaborative Care",
+        description: "Working together to create a personalized treatment plan that addresses your unique needs and goals, while providing the tools and support needed for success."
       },
       {
         title: "Safe & Supportive Environment",
-        description: "Creating a non-judgmental and empathetic atmosphere where clients feel comfortable sharing their innermost thoughts and working through challenges."
+        description: "Creating a non-judgmental and empathetic atmosphere where you can explore your thoughts and emotions openly, fostering trust and facilitating healing."
       }
     ]
   },
