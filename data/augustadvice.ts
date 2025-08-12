@@ -36,6 +36,7 @@ export const services: Service[] = [
       "Exposure and Response Prevention (ERP)",
       "Intrusive thought management",
       "Anxiety reduction techniques",
+      "Body-Focused Repetitive Behaviors",
       "Cognitive Behavioral Therapy (CBT)",
       "Building resilience",
       "Personalized treatment plans"
@@ -397,6 +398,7 @@ export const therapistProfile: TherapistProfile = {
     "Anger Management",
     "Behavioral Issues",
     "Bipolar Disorder",
+    "Body-Focused Repetitive Behaviors",
     "Coping Skills",
     "Family Conflict",
     "Impulse Control Disorders",
